@@ -648,7 +648,7 @@ class Xls extends BaseReader
 
         // initialize
         $this->pos = 0;
-        $this->codepage = $this->codepage == null ? 'CP1252' : $this->codepage;
+        $this->codepage = $this->codepage == null ? 'WINDOWS-1251' : $this->codepage;
         $this->formats = [];
         $this->objFonts = [];
         $this->palette = [];
